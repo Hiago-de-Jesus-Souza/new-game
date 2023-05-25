@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/* ESTILOS GLOBAIS
+-------------------------------------------------- */
+/* Padding abaixo do footer e texto mais suave no <body> */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+
+  .cadastro{
+    border: none;
+    background-color: orange;
+    color: white;
+
+  }
+
+  /* Navegação */
+
+  .fixed-top{
+    background-color: rgb(79, 79, 79);
+  }
+
+  
+  .inicio{
+    width: 100%;
+    height: 670px;
+
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  }
+
+  .inicio div{
+    background-color: rgba(0, 0, 0, 0.286);
+    width: 100%;
+    height: 670px;
+  }
+
+  .carousel-item{
+    background-image: url(../imagens/fundo.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 700px;
+  }
+
+  .imagem_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagem_txt p{
+    color: white;
+    font-family: 'Kaushan Script';
+    font-size: 1.5em;
+    color: orange;
+    
+  }
+
+  .logo-insomnia{
+    width: 700px;
+  }
+
+  .veja_mais{
+    background-color: orange;
+  }
+    
+  /*------------------------------------*/
+
+  .txt{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .txt h2{
+    font-weight: bold;
+    font-size: 4em;
+  }
+
+  .txt p{
+    font-size: 0.9em;
+  }
+
+
+
+  /* CONTEÚDO DO MARKETING
+  -------------------------------------------------- */
+  
+  /* Alinha, centralmente, o texto dentro das três colunas abaixo do carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featrurezinhas
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Espaça o elemento <hr> mais */
+  }
+  
+  /* Afina os cabeçalhos de marketing */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+/*Imagens*/
+  img{
+    border-radius: 10px;
+  }
+
+  img.imagem_game{
+    box-shadow: 2px 2px 20px black;
+  }
+
+  /* botões */
+  button.btn1{
+    background-color: red;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  button.btn2{
+    background-color: black;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  button.btn3{
+    background-color: blueviolet;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  /* diretor */
+
+  .lista{
+    color: white;
+  }
+
+  /* Jogos de lançamentos */
+
+  .sm2{
+    padding-left: 10px;
+  }
+
+
+  .jogos_lanca{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    margin-left: 10px; 
+  }
+
+  /* Diretor */
+
+  .diretor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*-----------------*/
+
+
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  /*-----------------*/
+
+
+/*Nós contate */
+
+.page-section{
+  margin-bottom: 30px;
+
+}
+
+.section-heading{
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+
+
+  .page-section {
+    padding: 6rem 0;
+
+    background-image: url(https://www.digitaltrends.com/wp-content/uploads/2021/06/racra_warmonger.jpg?p=1);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h3.section-subheading, .page-section .section-subheading.h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 4rem;
+  }
+
+  section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+  }
+  section#contact form#contactForm .form-group input,
+  section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+  }
+  section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+  }
+  section#contact form#contactForm .form-group-textarea {
+    height: 100%;
+  }
+  section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+  }
+  section#contact form#contactForm p.help-block {
+    margin: 0;
+  }
+  section#contact form#contactForm .form-control:focus {
+    border-color: #ffc800;
+    box-shadow: none;
+  }
+  section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm :-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm ::-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm :-ms-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+
+  /* CSS RESPONSIVE
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Aumenta o tamanho do conteúdo do carousel */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
